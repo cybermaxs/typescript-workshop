@@ -1,0 +1,27 @@
+{
+  "name": "typescript-workshop",
+  "version": "1.0.0",
+  "description": "Typescript workshop\r ====",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.32",
+    "@types/node": "^6.0.45",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cybermaxs/typescript-workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cybermaxs/typescript-workshop/issues"
+  },
+  "homepage": "https://github.com/Cybermaxs/typescript-workshop#readme"
+}
