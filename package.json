@@ -7,12 +7,13 @@
   "devDependencies": {
     "@types/chai": "^3.4.34",
     "@types/mocha": "^2.2.32",
-    "@types/node": "^6.0.45",
+    "@types/node": "^6.0.46",
     "chai": "^3.5.0",
     "mocha": "^3.1.2"
   },
   "scripts": {
-    "test": "mocha"
+    "test:watch": "./node_modules/.bin/mocha --recursive --reporter list --bail --watch --opts \"Labs/B - Language Features/tasks.order\"",
+    "test": "./node_modules/.bin/mocha --recursive **/*test.js"
   },
   "repository": {
     "type": "git",
