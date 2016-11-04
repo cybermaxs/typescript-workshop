@@ -1,3 +1,5 @@
+import * as chai from 'chai'
+
 describe('boolean', ()=> {
     it('assignToLet', ()=> {
         // TODO : assign a value to the variable to fix this test
