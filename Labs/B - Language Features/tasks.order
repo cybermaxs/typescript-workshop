@@ -1,0 +1,32 @@
+**/BasicTypes/array.test.js
+**/BasicTypes/boolean.test.js
+**/BasicTypes/enum.test.js
+**/BasicTypes/number.test.js
+**/BasicTypes/string.test.js
+
+**/Destructuring/destructuring.array.js
+**/Destructuring/destructuring.object.js
+**/For ... Of/test.js
+**/Function/function.test.js
+
+**/Lambda/arrow.test.js
+**/Let/let.test.js
+**/Rest Parameters/rest.test.js
+**/Rest Parameters/spread.test.js
+**/Tuples/tuples.test.js
+
+**/Interfaces/argument.test.js
+**/Interfaces/define.test.js
+**/Interfaces/implement.test.js
+
+**/Classes/define.test.js
+**/Classes/implement.test.js
+**/Classes/instance.test.js
+**/Classes/static.test.js
+
+
+**/External Modules/externalmodule.test.js
+**/File Modules/module.test.js
+
+
+
