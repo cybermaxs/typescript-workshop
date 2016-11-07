@@ -1,19 +1,25 @@
-**/BasicTypes/array.test.js
 **/BasicTypes/boolean.test.js
-**/BasicTypes/enum.test.js
 **/BasicTypes/number.test.js
 **/BasicTypes/string.test.js
+**/BasicTypes/array.test.js
+**/BasicTypes/enum.test.js
+
+**/Variables/let.test.js
+**/Variables/const.test.js
 
 **/Destructuring/destructuring.array.js
 **/Destructuring/destructuring.object.js
-**/For ... Of/test.js
-**/Function/function.test.js
+**/For/for.test.js
 
+**/Function/function.test.js
 **/Lambda/arrow.test.js
-**/Let/let.test.js
 **/Rest Parameters/rest.test.js
 **/Rest Parameters/spread.test.js
-**/Tuples/tuples.test.js
+
+**/AdvancedTypes/generic.test.js
+**/AdvancedTypes/tuples.test.js
+**/AdvancedTypes/union.test.js
+**/AdvancedTypes/alias.test.js
 
 **/Interfaces/argument.test.js
 **/Interfaces/define.test.js
