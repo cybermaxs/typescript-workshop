@@ -31,8 +31,6 @@
 **/Classes/static.test.js
 
 
-**/External Modules/externalmodule.test.js
-**/File Modules/module.test.js
-
-
-
+**/ExternalModules/externalmodule.test.js
+**/FileModules/import.test.js
+**/FileModules/export.test.js

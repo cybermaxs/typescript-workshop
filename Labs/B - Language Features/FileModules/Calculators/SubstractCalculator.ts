@@ -1,8 +1,8 @@
 import {Calculator} from './Calculator'
 
 class SubstractCalculator implements Calculator {
-    Calculate (opA:number, opB:number) {
-        return opA-opB;
+    Calculate (left:number, right:number) {
+        return left-right;
     }
 }
 
