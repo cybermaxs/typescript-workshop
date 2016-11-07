@@ -3,34 +3,26 @@
 **/BasicTypes/string.test.js
 **/BasicTypes/array.test.js
 **/BasicTypes/enum.test.js
-
 **/Variables/let.test.js
 **/Variables/const.test.js
-
 **/Destructuring/destructuring.array.js
 **/Destructuring/destructuring.object.js
 **/For/for.test.js
-
 **/Function/function.test.js
 **/Lambda/arrow.test.js
-**/Rest Parameters/rest.test.js
-**/Rest Parameters/spread.test.js
-
+**/Rest/rest.test.js
+**/Rest/spread.test.js
 **/AdvancedTypes/generic.test.js
 **/AdvancedTypes/tuples.test.js
 **/AdvancedTypes/union.test.js
 **/AdvancedTypes/alias.test.js
-
 **/Interfaces/argument.test.js
 **/Interfaces/define.test.js
 **/Interfaces/implement.test.js
-
 **/Classes/define.test.js
 **/Classes/implement.test.js
 **/Classes/instance.test.js
 **/Classes/static.test.js
-
-
 **/ExternalModules/externalmodule.test.js
 **/FileModules/import.test.js
 **/FileModules/export.test.js
