@@ -12,7 +12,7 @@
     "mocha": "^3.1.2"
   },
   "scripts": {
-    "test:watch": "./node_modules/.bin/mocha --recursive --reporter list --bail --watch --opts \"Labs/B - Language Features/tasks.order\"",
+    "test:watch": "./node_modules/.bin/mocha --recursive --reporter min --bail --watch --opts \"Labs/B - Language Features/tasks.order\"",
     "test": "./node_modules/.bin/mocha --recursive **/*test.js"
   },
   "repository": {

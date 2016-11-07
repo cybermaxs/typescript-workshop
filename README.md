@@ -6,6 +6,7 @@ The objective of this workshop is to teach you Typescript language through testi
 Prerequisites & Getting Started
 ---
 - install node
+- install npm modules (`npm install`)
 - install typescript compiler as a global module (`npm install -g typescript`)
 - install/open the root folder with a editor like Visual Studio Code
 
