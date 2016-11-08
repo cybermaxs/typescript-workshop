@@ -1,7 +1,7 @@
 import * as chai from 'chai'
 
 // tests : do not change anything
-describe('Enum', ()=> {
+describe('enum', ()=> {
     it('defineEnumAsInt', ()=> {
         // TODO : define an enum with 3 values (Zero, One, Two) to fix this test
 
@@ -23,14 +23,14 @@ describe('Enum', ()=> {
         chai.expect(MyEnum.Eleven).to.be.equal(11);
     })
 
-    it('defineTwice', ()=> {
+    it('openEnded', ()=> {
 
         enum Number {
             Zero,
             Two,
             Four
         }       
-        // TODO : define a new enum with the same name and 2 values (One, Three) 
+        // TODO : add a new enum with the same name and 2 values (One, Three) 
         // Note : do not change the existing declaration
 
         chai.expect(Number.Zero).to.be.equal(0);
@@ -39,11 +39,12 @@ describe('Enum', ()=> {
     })
 })
 
-describe('Flags', ()=> {
+describe('flags', ()=> {
     it('defineAsFlags', ()=> {
-        // TODO : define an enum 'MyEnum' with Flags to fix this test
+        // TODO : define an enum 'FileAccess' with Flags to fix this test
 
-        chai.expect(MyEnum.Ten).to.be.equal(10);
-        chai.expect(MyEnum.Eleven).to.be.equal(11);
+        var myaccess = FileAccess.All;
+        var hasRead = (mydirection & FileAccess.Read) == FileAccess.Read;
+        chai.expect(hasRead).to.be.true;
     })
 })
