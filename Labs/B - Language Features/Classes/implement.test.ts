@@ -27,6 +27,24 @@ describe('class#implement', () => {
         chai.expect(v.y).to.be.equal(200);
         chai.expect(v.z).to.be.equal(300);
     })
+    it('super', () => {
+        class WelcomeBase {
+            protected GetWelcomeMessage() {
+                return 'hello world';
+            }
+        }
+
+        class Program extends WelcomeBase {
+            run(){
+                return 'foobar';
+                // TODO : call the base class here to return the welcome message
+            }
+        }
+                   
+        var program = new Program();
+        var actual = program.run();
+        chai.expect(actual).to.be.equal('hello world');
+    })
     it('abstract', ()=> {
 
         abstract class Generator {      
