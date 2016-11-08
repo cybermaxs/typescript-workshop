@@ -8,7 +8,7 @@ Instructions
 ---
 - Review `app.ts` ; Can you see any warning/errors in your favorite editor ?
 - Compile the file using the ts compiler `tsc --noEmitOnError app.ts` ; Can you see a new file ?
-- Compile the file again with the flag `tsc app.ts`; Can you see a new file ?
+- Compile the file again without the flag `tsc app.ts`; Can you see a new file ?
 - Run the file `node app.js` ; Even with types errors, the js file is still valid and can run without errors.
 
 More Resource ?

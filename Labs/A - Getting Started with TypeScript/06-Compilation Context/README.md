@@ -1,4 +1,4 @@
-05 - Compilation context
+06 - Compilation context
 ===
 
 The	compilation	context	contains files that needs to be transpiled to javascript and information about which compiler options (like the flag `--noEmitOnError`)

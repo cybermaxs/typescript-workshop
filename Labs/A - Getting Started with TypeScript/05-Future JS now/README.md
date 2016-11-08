@@ -9,7 +9,7 @@ Instructions
 ---
 - Review `app.ts` ; Can you see an ES 6 feature ?
 - Run the TypeScript compiler on this file `tsc --target es6 app.ts`. Do you see a change ?
-- Compile the file again by targeting ES5 `tsc --target es5 app.ts`; Is it the same js ?
+- Compile the file again by targeting ES5 `tsc --target es5 app.ts`; Is it the same js ? Class is not supported in ES5.
 
 More Resources ?
 ---
