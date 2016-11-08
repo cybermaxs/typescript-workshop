@@ -4,7 +4,7 @@ This module covers main language features in a koan-style.
 
 Getting Started
 ---
-- run the compiler in watch mode `tsc -w`
+- run the compiler in watch mode `tsc -w` (On VS Code a task already exists, Ctrl+Maj+B)
 - run the test runner in watch mode `npm run test:watch`
 - start to fix the first test, then the second... until the end
 
