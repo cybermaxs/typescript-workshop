@@ -3,6 +3,7 @@
 **/BasicTypes/string.test.js
 **/BasicTypes/array.test.js
 **/BasicTypes/enum.test.js
+**/SpecialTypes/any.test.js
 **/Variables/let.test.js
 **/Variables/const.test.js
 **/Destructuring/destructuring.array.js
@@ -16,9 +17,10 @@
 **/AdvancedTypes/tuples.test.js
 **/AdvancedTypes/union.test.js
 **/AdvancedTypes/alias.test.js
-**/Interfaces/argument.test.js
 **/Interfaces/define.test.js
+**/Interfaces/argument.test.js
 **/Interfaces/implement.test.js
+**/Interfaces/extend.test.js
 **/Classes/define.test.js
 **/Classes/implement.test.js
 **/Classes/instance.test.js

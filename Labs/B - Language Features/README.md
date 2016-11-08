@@ -18,6 +18,7 @@ That's not a problem. In case you have a problem, here are some tips :
 - always check typescript compiler errors/warning : you should not have errors in your tests.
 - do not hesitate to browse online resources : the best way to learn
 - NEVER change assertions/expectations : you job is to fix tests, not to write new ones. 
+- you can skip test (not recommanded). Just replace it('...) by it.skip('...) : this test will be marked as pending
 
 Useful resources
 ----
