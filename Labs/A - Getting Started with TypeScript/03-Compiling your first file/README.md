@@ -6,7 +6,7 @@ This command will generate a new file `anyfile.js` and it is JavaScript !
 
 Instructions
 ---
-- Review `app.js`. Any difference with javascript ?
+- Review `app.js`. Any difference with a javascript file ?
 - Run the TypeScript compiler on this file `tsc app.ts`.
 - A new file `app.js` should be present in this directory ; Is it similar to the first one ?
 - (Optional) Run the file `node app.js`

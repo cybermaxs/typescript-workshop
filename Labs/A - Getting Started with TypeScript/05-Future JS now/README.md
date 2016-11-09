@@ -2,7 +2,8 @@
 ===
 
 TypeScript allows you to use a bunch of features from ES6 and beyond in current (ES3 and ES5 level) JavaScript engines (like current browsers and NodeJS). 
-You don't have to worry about what is supported or not, the Typescript compiler has polyfills for all features. 
+You don't have to worry about what is supported or not, the Typescript compiler has polyfills for all of its features. 
+A polyfill is a fallback using an older version of the language. You don't have to worry about the version of JavaScript engine, the feature will always be available. 
 The compiler has a short release cycle, so new features are always availaible as son as they're specified/proposed. 
 
 Instructions
