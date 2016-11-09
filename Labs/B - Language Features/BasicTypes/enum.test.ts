@@ -41,7 +41,11 @@ describe('enum', ()=> {
 
 describe('flags', ()=> {
     it('defineAsFlags', ()=> {
-        // TODO : define an enum 'FileAccess' with Flags to fix this test
+        // TODO : add a new value All in 'FileAccess' (with Flags) to fix this test
+        enum FileAccess {
+            Read    = 1
+            Write   = 2
+        }
 
         var myaccess = FileAccess.All;
         var hasRead = (mydirection & FileAccess.Read) == FileAccess.Read;

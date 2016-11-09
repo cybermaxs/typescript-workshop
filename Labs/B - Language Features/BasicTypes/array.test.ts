@@ -3,7 +3,7 @@ import * as chai from 'chai'
 // tests : do not change anything
 describe('Array', ()=> {
     it('createLikeJs', ()=> {
-        // TODO : create an array 'myarray' with 3 values 0,1,2 using []
+        // TODO : create an array 'myarray' with 3 values 1,2,3 using []
         var myarray = null;
 
         chai.expect(myarray).to.be.an('array');
@@ -12,7 +12,7 @@ describe('Array', ()=> {
     })
 
     it('createUsingGeneric', ()=> {
-        // TODO : create an array 'myarray' with 3 values 0,1,2 using Array<number>
+        // TODO : create an array 'myarray' with 3 values 1,2,3 using Array<number>
         var myarray = null;
 
         chai.expect(myarray).to.be.an('array');
