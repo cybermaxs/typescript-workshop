@@ -43,7 +43,7 @@ describe('flags', ()=> {
     it('defineAsFlags', ()=> {
         // TODO : add a new value All in 'FileAccess' (with Flags) to fix this test
         enum FileAccess {
-            Read    = 1
+            Read    = 1,
             Write   = 2
         }
 

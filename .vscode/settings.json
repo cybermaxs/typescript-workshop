@@ -1,7 +1,6 @@
-// Placez vos paramètres dans ce fichier pour remplacer les paramètres par défaut et les paramètres utilisateur.
 {
     "files.exclude": {
-        "**/*.js":true,
+        //"**/*.js":true,
         "**/node_modules":true
     }
 }
