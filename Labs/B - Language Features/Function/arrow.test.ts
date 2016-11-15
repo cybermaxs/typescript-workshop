@@ -24,7 +24,7 @@ describe('function#arrow', () => {
            var aged = person.age;
            chai.expect(aged).to.be.equal(2); 
            done();
-        },100);
+        },1000);
     })
 })
 
