@@ -3,7 +3,7 @@ import * as chai from 'chai'
 // IMPORTANT NOTE : tests should NOT be changed 
 // we're working with import directives ONLY, so nothing should be changed below this comment
 
-describe('Import', () => {
+describe('import', () => {
     it('importItem', () => {
         // TODO : import the interface defined in calculator and implements your own calculator
         // Tip : import should be at he beginning of the file

@@ -26,6 +26,6 @@
 **/Classes/implement.test.js
 **/Classes/instance.test.js
 **/Classes/static.test.js
-**/ExternalModules/externalmodule.test.js
-**/FileModules/import.test.js
-**/FileModules/export.test.js
+**/Modules/external.test.js
+**/Modules/import.test.js
+**/Modules/export.test.js
