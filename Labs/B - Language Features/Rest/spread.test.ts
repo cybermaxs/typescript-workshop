@@ -5,7 +5,7 @@ describe('spread', () => {
         function foo(x:number, y:number, z:number) { 
             return x+y+z;
          } 
-        var args = [0, 1, 2]; 
+        var args = [1, 2, 3]; 
         
         // TODO : call foo method using the spread operator and args
         var actual = foo(/* FILL_ME_IN*/);
