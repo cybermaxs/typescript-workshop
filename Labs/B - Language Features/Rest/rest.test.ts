@@ -7,14 +7,19 @@ describe('rest', () => {
         }
 
         // TODO : call iTakeItAll to fix this test
-        var actual = iTakeItAll('my', 'name');
+        var actual = iTakeItAll('my', 'name', 'is', 'Carl');
 
         chai.expect(actual).to.be.deep.equal(['is', 'Carl']);
     })
     it('implementRestParams', () => {
 
+<<<<<<< 0d607390be670129a6b46ef27e02579ce90d000a
         // TODO : change parameters to fix this test (Note : do not use array methods)
         function iTakeItAll(first, second, third, fourth, fifth) {
+=======
+        // TODO : update this method to fix this test (Note : do not use array methods)
+        function iTakeItAll(first, second, ...all) {
+>>>>>>> more answers
                 return all; 
         }
 
