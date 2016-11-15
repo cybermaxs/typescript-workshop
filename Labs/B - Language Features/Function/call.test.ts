@@ -28,5 +28,33 @@ describe('function#call', () => {
         chai.expect(fn).to.be.an('function');
         chai.expect(actual).to.be.equal(2)
     })
+    it('call overload', () => {
+        // TODO : newPoint with correct parameters to fix this test
+        function newPoint(x: number, y: number): { x: number, y: number };
+        function newPoint(x: number, y: number, z: number): { x: number, y: number, z: number };
+        function newPoint(x: number, y: number, z?: number): any {
+            if (!z) {
+                return { x: x, y: y };
+            }
+            else {
+                return {
+                    x: x,
+                    y: y,
+                    z: z || 0
+                };
+            }
+        }
+
+        let point2D = newPoint(10,20);
+        chai.expect(point2D).to.be.an('object');
+        chai.expect(point2D.x).to.be.equal(10);
+        chai.expect(point2D.y).to.be.equal(20);
+
+        let point3D = newPoint(10,20);
+        chai.expect(point3D).to.be.an('object');
+        chai.expect(point3D.x).to.be.equal(10);
+        chai.expect(point3D.y).to.be.equal(20);
+        chai.expect(point3D.z).to.be.equal(30);
+    })
 })
 

@@ -35,7 +35,7 @@ describe('function#define', () => {
         let joke1 = buildName('Cedie', 'Player');
         chai.expect(joke1).to.be.equal('FILL_ME_IN');
 
-        let joke2 = buildName('Cristiano', 'Ronaldo' ,'dos Santos' ,'Aveiro');
+        let joke2 = buildName('Cristiano', 'Ronaldo', 'dos Santos', 'Aveiro');
         chai.expect(joke2).to.be.equal('FILL_ME_IN');
     })
 })
