@@ -12,7 +12,7 @@
 **/For/for.test.js
 **/Function/call.test.js
 **/Function/define.test.js
-**/Lambda/arrow.test.js
+**/Function/arrow.test.js
 **/Rest/spread.test.js
 **/AdvancedTypes/generic.test.js
 **/AdvancedTypes/tuples.test.js
