@@ -1,12 +1,14 @@
 import * as chai from 'chai'
 
-// tests : do not change anything
-describe('Arrow', () => {
+describe('function#arrow', () => {
     it('simple', () => {
         // TODO : define an arrow function (lambda) that returns the power of 2 of its argument by using the => operator
-        var fn; /* should take x as arguments and returns x*x;*/
+        // aka convert fn to an arrow function
+        var fn= function(x) { return 'x**x'};
+
+        var actual = fn(2);
         chai.expect(fn).to.be.an('function');
-        chai.expect(fn(2)).to.be.equal(4)
+        chai.expect(actual).to.be.equal(4)
     })
     it('this', (done) => {
         // TODO : change growOld to an arrow to keep the this context
@@ -22,7 +24,7 @@ describe('Arrow', () => {
            var aged = person.age;
            chai.expect(aged).to.be.equal(2); 
            done();
-        },1000);
+        },100);
     })
 })
 
