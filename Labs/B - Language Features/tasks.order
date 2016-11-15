@@ -14,10 +14,6 @@
 **/Function/define.test.js
 **/Function/arrow.test.js
 **/Rest/spread.test.js
-**/AdvancedTypes/generic.test.js
-**/AdvancedTypes/tuples.test.js
-**/AdvancedTypes/union.test.js
-**/AdvancedTypes/alias.test.js
 **/Interfaces/define.test.js
 **/Interfaces/argument.test.js
 **/Interfaces/implement.test.js
@@ -26,6 +22,10 @@
 **/Classes/implement.test.js
 **/Classes/instance.test.js
 **/Classes/static.test.js
+**/AdvancedTypes/generic.test.js
+**/AdvancedTypes/tuples.test.js
+**/AdvancedTypes/union.test.js
+**/AdvancedTypes/alias.test.js
 **/Modules/external.test.js
 **/Modules/import.test.js
 **/Modules/export.test.js

@@ -33,7 +33,7 @@ describe('generic', () => {
 
         // TODO : implement this interface in a new class Runnable (string, number);
 
-        var runnable: IRunnable<string, number> = new Program();
+        var runnable: IRunnable<string, number> = new Runnable();
         var result = runnable.run('hello');
         chai.expect(result).to.be.equal(123456789);
     })
