@@ -4,7 +4,7 @@ import * as chai from 'chai'
 describe('Array', ()=> {
     it('createLikeJs', ()=> {
         // TODO : create an array 'myarray' with 3 values 1,2,3 using []
-        var myarray = null;
+        var myarray = [1,2,3];
 
         chai.expect(myarray).to.be.an('array');
         chai.expect(myarray.length).to.be.equal(3);
@@ -13,7 +13,7 @@ describe('Array', ()=> {
 
     it('createUsingGeneric', ()=> {
         // TODO : create an array 'myarray' with 3 values 1,2,3 using Array<number>
-        var myarray = null;
+        var myarray = new Array<number>(1,2,3);
 
         chai.expect(myarray).to.be.an('array');
         chai.expect(myarray.length).to.be.equal(3);
@@ -21,7 +21,7 @@ describe('Array', ()=> {
     })
     it('multipleTypes', ()=> {
         // TODO : create an array with 3 values : 'ok', 1, true (Tip : this is just an array...)
-        var myarray = null;
+        var myarray = ['ok', 1, true];
 
         chai.expect(myarray).to.be.an('array');
         chai.expect(myarray.length).to.be.equal(3);
