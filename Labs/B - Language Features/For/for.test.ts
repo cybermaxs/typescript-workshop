@@ -6,7 +6,7 @@ describe('For...Of', () => {
         // TODO : use for...of to fix this test
         var results = [];
         var someArray = [9, 2, 5]; 
-        for (var item in someArray) {
+        for (var item of someArray) {
            results.push(item);
         }
 
@@ -16,7 +16,7 @@ describe('For...Of', () => {
         // TODO : use for...of to fix this test
         var results = [];
         var hello = "hello"; 
-        for (var char in hello) {
+        for (var char of hello) {
             results.push(char);
         }
          chai.expect(results).to.be.deep.equal(['h','e','l','l','o']);

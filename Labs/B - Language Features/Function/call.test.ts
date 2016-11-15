@@ -7,7 +7,7 @@ describe('function#call', () => {
         var myConverter = function (s: string, radix: number) {
             return parseInt(s, radix);
         };
-        var actual = myConverter('FILL_ME_IN');
+        var actual = myConverter('1100',2);
         chai.expect(actual).to.be.an('number');
         chai.expect(actual).to.be.equal(12);
     })
@@ -16,7 +16,13 @@ describe('function#call', () => {
         var log = function (log: { ts: number, msg: string }) {
             return log.ts.toString() + '=>' + log.msg;
         };
+<<<<<<< 7d2376e4c6a722a9ae6cac4c951ab830967a21a4
         var actual = 'CALL_ME_IN';
+=======
+
+        var actual = log({ts:123, msg:'hello'})
+
+>>>>>>> call answers
         chai.expect(actual).to.be.an('string');
         chai.expect(actual).to.be.equal('123=>hello');
     })
@@ -24,7 +30,7 @@ describe('function#call', () => {
         // TODO : call fn to fix this test + warning
         var fn = function (a: number, b: number = 99) { return a };
 
-        var actual = "CALL_FN";
+        var actual = fn(2);
         chai.expect(fn).to.be.an('function');
         chai.expect(actual).to.be.equal(2)
     })
@@ -50,7 +56,7 @@ describe('function#call', () => {
         chai.expect(point2D.x).to.be.equal(10);
         chai.expect(point2D.y).to.be.equal(20);
 
-        let point3D = newPoint(10,20);
+        let point3D = newPoint(10,20, 30);
         chai.expect(point3D).to.be.an('object');
         chai.expect(point3D.x).to.be.equal(10);
         chai.expect(point3D.y).to.be.equal(20);
