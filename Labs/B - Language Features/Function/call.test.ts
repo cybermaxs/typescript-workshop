@@ -16,9 +16,9 @@ describe('function#call', () => {
         var log = function (log: { ts: number, msg: string }) {
             return log.ts.toString() + '=>' + log.msg;
         };
-
+        var actual = 'CALL_ME_IN';
         chai.expect(actual).to.be.an('string');
-        chai.expect(actual).to.be.equal('123 => hello');
+        chai.expect(actual).to.be.equal('123=>hello');
     })
     it('call with optional parameter', () => {
         // TODO : call fn to fix this test + warning
