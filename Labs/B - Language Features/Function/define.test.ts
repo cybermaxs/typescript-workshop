@@ -2,7 +2,7 @@ import * as chai from 'chai'
 
 // tests : do not change anything
 describe('function#define', () => {
-    it('assign default value', (done) => {
+    it('assign default value', () => {
         // TODO : assign a default value to a parameter in fn to fix this test
         var fn = function (a: number, b: number) { return a + b };
 
@@ -16,7 +16,7 @@ describe('function#define', () => {
 
         var actual = fn(1, 2);
         chai.expect(fn).to.be.an('function');
-        chai.expect(actual).to.be.an('string');
+        chai.expect(actual).to.be.an('number');
     })
     it('missingReturnType', () => {
         // TODO : replace FILL_ME_IN by the correct type (Tip : use intellisense ...)
