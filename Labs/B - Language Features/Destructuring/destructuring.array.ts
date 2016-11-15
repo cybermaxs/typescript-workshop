@@ -1,6 +1,13 @@
 import * as chai from 'chai'
 
 describe('Array destructuring', () => {
+    it('simple', () => {
+        let input = [1, 2];
+        // TODO : assign input[0] to x and input[1] to by using a single ligne of code
+        /* ...FILL_ME_IN... */
+        chai.expect(x).to.be.equal(20)
+        chai.expect(y).to.be.equal(10)
+    })
     it('swap variables', () => {
         var x = 10
         var y = 20; 

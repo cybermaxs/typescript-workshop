@@ -1,17 +1,36 @@
 import * as chai from 'chai'
 
 describe('Object destructuring', () => {
-    it('single object', () => {
+    it('simple object', () => {
         var rect = { x: 10, y: 20, z: 30};
         // TODO : create and assign these three variables in a single ligne of code
+        // Note : use destructuring
         /* ...FILL_ME_IN... */
-        chai.expect(x).to.be.equal(10)
-        chai.expect(y).to.be.equal(20)
-        chai.expect(z).to.be.equal(30)
+        chai.expect(x).to.be.equal(10);
+        chai.expect(y).to.be.equal(20);
+        chai.expect(z).to.be.equal(30);
+    })
+    it('renaming', () => {
+        // TODO : assign o.b and o.c to respectively firstname and lastname in a single ligne of code
+        // Note : use destructuring
+        let o = {
+            a: 'Hello',
+            b: 'John',
+            c: 'Smith',
+        } 
+
+        /* ...FILL_ME_IN... */
+        chai.expect(firtname).to.be.an('string');
+        chai.expect(firtname).to.be.equal('John');
+
+        chai.expect(lastname).to.be.an('string');
+        chai.expect(lastname).to.be.equal('Smith')
     })
     it('nested', () => {
-        //structure 
+        // TODO : assign obj["some property"] to a new var someProperty
+        // Note : use destructuring
         const obj = {"some property": "a value"};
+
         /* ...FILL_ME_IN... */
         chai.expect(someProperty).to.be.an('string');
         chai.expect(someProperty).to.be.equal("a value")
