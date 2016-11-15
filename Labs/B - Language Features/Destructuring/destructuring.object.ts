@@ -5,7 +5,7 @@ describe('Object destructuring', () => {
         var rect = { x: 10, y: 20, z: 30};
         // TODO : create and assign these three variables in a single ligne of code
         // Note : use destructuring
-        /* ...FILL_ME_IN... */
+        var {x,y,z}=rect;
         chai.expect(x).to.be.equal(10);
         chai.expect(y).to.be.equal(20);
         chai.expect(z).to.be.equal(30);
@@ -19,9 +19,9 @@ describe('Object destructuring', () => {
             c: 'Smith',
         } 
 
-        /* ...FILL_ME_IN... */
-        chai.expect(firtname).to.be.an('string');
-        chai.expect(firtname).to.be.equal('John');
+         var {b:firstname,c:lastname}=o;
+        chai.expect(firstname).to.be.an('string');
+        chai.expect(firstname).to.be.equal('John');
 
         chai.expect(lastname).to.be.an('string');
         chai.expect(lastname).to.be.equal('Smith')
@@ -31,6 +31,7 @@ describe('Object destructuring', () => {
         // Note : use destructuring
         const obj = {"some property": "a value"};
 
+        var {"some property":someProperty}=obj;
         /* ...FILL_ME_IN... */
         chai.expect(someProperty).to.be.an('string');
         chai.expect(someProperty).to.be.equal("a value")

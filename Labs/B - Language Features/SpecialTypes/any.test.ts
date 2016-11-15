@@ -4,11 +4,7 @@ describe('any', ()=> {
     it('any', ()=> {
         // TODO : fix the test by using the any type annotation
         function MyToString(obj:any) {
-<<<<<<< HEAD
             return obj.toString();
-=======
-            return obj.ToString();
->>>>>>> c14672b6395e3c6e941cd5713c3d4281888db066
         }
 
         var n_actual = MyToString(123);
