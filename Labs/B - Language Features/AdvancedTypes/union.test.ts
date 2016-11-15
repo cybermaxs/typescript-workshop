@@ -4,7 +4,7 @@ describe('union', () => {
     it('arguments', () => {
 
         // TODO : extend the command parameter with an union type to fix errors and this test
-        function trim(command: string) {
+        function trim(command: string /* FILL_ME_IN */) {
             var line = '';
             if (typeof command === 'string') {
                 line = command.trim();
