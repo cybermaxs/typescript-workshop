@@ -13,9 +13,9 @@ describe('rest', () => {
     })
     it('implementRestParams', () => {
 
-        // TODO : call this method (Note : do not use array methods)
+        // TODO : change parameters to fix this test (Note : do not use array methods)
         function iTakeItAll(first, second, third, fourth, fifth) {
-                return first; 
+                return all; 
         }
 
         var actual = iTakeItAll(1, 2, 4, 8, 16);

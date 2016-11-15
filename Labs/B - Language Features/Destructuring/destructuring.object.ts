@@ -20,8 +20,8 @@ describe('Object destructuring', () => {
         } 
 
         /* ...FILL_ME_IN... */
-        chai.expect(firtname).to.be.an('string');
-        chai.expect(firtname).to.be.equal('John');
+        chai.expect(firstname).to.be.an('string');
+        chai.expect(firstname).to.be.equal('John');
 
         chai.expect(lastname).to.be.an('string');
         chai.expect(lastname).to.be.equal('Smith')
