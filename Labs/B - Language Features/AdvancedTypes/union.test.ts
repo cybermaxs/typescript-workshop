@@ -11,15 +11,15 @@ describe('union', () => {
             } else {
                 line = command.join(' ').trim();
             }
+            return line;
         }
-
 
         var n_actual = trim('  hello  ');
         chai.expect(n_actual).to.be.an('string');
         chai.expect(n_actual).to.be.equal('hello');
-        var s_actual = trim(['  hello  ', '  world  ', '   !  ']);
+        var s_actual = trim(['  hello', 'world', '!  ']);
         chai.expect(s_actual).to.be.an('string');
-        chai.expect(s_actual).to.be.equal(['hello', 'world', '!']);
+        chai.expect(s_actual).to.be.equal('hello world !');
     })
     it('shape', () => {
         class Bird {
