@@ -48,7 +48,7 @@ describe('flags', ()=> {
         }
 
         var myaccess = FileAccess.All;
-        var hasRead = (mydirection & FileAccess.Read) == FileAccess.Read;
+        var hasRead = (myaccess & FileAccess.Read) == FileAccess.Read;
         chai.expect(hasRead).to.be.true;
     })
 })
