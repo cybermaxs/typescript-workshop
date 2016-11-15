@@ -5,7 +5,7 @@ describe('Let', () => {
         // TODO : use let keyword to fix this test
         var foo = 123;
         if (true) {
-            var foo = 456;
+            let foo = 456;
         }
         chai.expect(foo).to.be.equal(123);
     })
@@ -14,7 +14,7 @@ describe('Let', () => {
         const nbItems = 3;
         var funcs = [];
         var results = [];
-        for (var i = 0; i < nbItems; i++) {
+        for (let i = 0; i < nbItems; i++) {
             funcs.push(function () {
                 results.push(i);
             })
