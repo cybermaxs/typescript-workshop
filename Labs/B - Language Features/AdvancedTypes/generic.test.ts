@@ -4,6 +4,7 @@ describe('generic', () => {
     it('reverse', () => {
         function reverse<T>(items: T[]): T[] {
             // TODO : fill the reverse method to fix this test
+            return items.reverse();
         }
 
         var actual = reverse([1,2,3,4,5]);
@@ -13,7 +14,7 @@ describe('generic', () => {
     it('instantateGenericClass', () => {
         // TODO : fill Result<T> class to fix this test
         class Result<T> {
-
+            constructor(public wasSuccessful:boolean, public data:T) {}
         }
 
         var s_actual = new Result(false, '{error: 42}');
@@ -29,6 +30,12 @@ describe('generic', () => {
     it('implementGenericInterface', () => {
        interface IRunnable<T, U> {
             run(input: T): U;
+        }
+
+        class Runnable implements IRunnable<string, number>{
+            run(input:string):number {
+                return 123456789;
+            }
         }
 
         // TODO : implement this interface in a new class Runnable (string, number);

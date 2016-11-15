@@ -8,7 +8,7 @@ describe('spread', () => {
         var args = [1, 2, 3]; 
         
         // TODO : call foo method using the spread operator and args
-        var actual = foo(/* FILL_ME_IN*/);
+        var actual = foo(...args);
 
         chai.expect(actual).to.be.equal(6);
     })
@@ -16,7 +16,8 @@ describe('spread', () => {
         var list = [1, 2]; 
 
         // TODO : expand 'list' to 0,1,2,3,4 using the spead operator
-        
+        list=[0,...list,3,4];
+
         chai.expect(list).to.be.deep.equal([0,1,2,3,4]);
     })
 })
