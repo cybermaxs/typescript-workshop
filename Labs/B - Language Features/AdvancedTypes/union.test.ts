@@ -4,7 +4,7 @@ describe('union', () => {
     it('arguments', () => {
 
         // TODO : extend the command parameter with an union type to fix errors and this test
-        function trim(command: string /* FILL_ME_IN */) {
+        function trim(command: string |string[]) {
             var line = '';
             if (typeof command === 'string') {
                 line = command.trim();
@@ -38,7 +38,7 @@ describe('union', () => {
 
         // TODO : create a function petFactory that returns an union Fish or Bird to fix this test
         function petFactory(flying:boolean) {
-
+            return flying ? new Bird('Angry Bird'):new Fish('Nemo');
         }
         
 
