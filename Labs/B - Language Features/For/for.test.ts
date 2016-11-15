@@ -7,7 +7,7 @@ describe('For...Of', () => {
         var results = [];
         var someArray = [9, 2, 5]; 
         for (var item in someArray) {
-           results.push(item); // 0,1,2 
+           results.push(item);
         }
 
         chai.expect(results).to.be.deep.equal([9, 2, 5]);
