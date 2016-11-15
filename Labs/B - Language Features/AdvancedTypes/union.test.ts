@@ -4,22 +4,22 @@ describe('union', () => {
     it('arguments', () => {
 
         // TODO : extend the command parameter with an union type to fix errors and this test
-        function trim(command: string /* FILL_ME_IN */) {
+        function trim(command: string |string[]) {
             var line = '';
             if (typeof command === 'string') {
                 line = command.trim();
             } else {
                 line = command.join(' ').trim();
             }
+            return line;
         }
-
 
         var n_actual = trim('  hello  ');
         chai.expect(n_actual).to.be.an('string');
         chai.expect(n_actual).to.be.equal('hello');
-        var s_actual = trim(['  hello  ', '  world  ', '   !  ']);
+        var s_actual = trim(['  hello', 'world', '!  ']);
         chai.expect(s_actual).to.be.an('string');
-        chai.expect(s_actual).to.be.equal(['hello', 'world', '!']);
+        chai.expect(s_actual).to.be.equal('hello world !');
     })
     it('shape', () => {
         class Bird {
@@ -38,7 +38,7 @@ describe('union', () => {
 
         // TODO : create a function petFactory that returns an union Fish or Bird to fix this test
         function petFactory(flying:boolean) {
-
+            return flying ? new Bird('Angry Bird'):new Fish('Nemo');
         }
         
 

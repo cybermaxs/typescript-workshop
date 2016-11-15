@@ -3,6 +3,7 @@ import * as chai from 'chai'
 describe('Tuple', () => {
     it('defineSimple', () => {
         // TODO : create a tuple that has two properties string/number
+        var tuple : [string, number];
         tuple = ['hello', 10];
         
         chai.expect(tuple).to.be.an('array');
