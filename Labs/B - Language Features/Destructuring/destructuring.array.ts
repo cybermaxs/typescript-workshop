@@ -5,8 +5,8 @@ describe('Array destructuring', () => {
         let input = [1, 2];
         // TODO : assign input[0] to x and input[1] to by using a single ligne of code
         /* ...FILL_ME_IN... */
-        chai.expect(x).to.be.equal(20)
-        chai.expect(y).to.be.equal(10)
+        chai.expect(x).to.be.equal(1)
+        chai.expect(y).to.be.equal(2)
     })
     it('swap variables', () => {
         var x = 10
@@ -18,7 +18,7 @@ describe('Array destructuring', () => {
     })
     it('rest parameters', () => {
         var inputs = [10,20,30,40];
-        // TODO : assign two first values to x/y and the others parameters to an array called 'remainging' with a single ligne of code
+        // TODO : assign two first values to x/y and the others parameters to an array called 'remaining' with a single ligne of code
         /* ...FILL_ME_IN... */
         chai.expect(x).to.be.equal(10)
         chai.expect(y).to.be.equal(20)
@@ -26,7 +26,7 @@ describe('Array destructuring', () => {
     })
     it('ignore parameters', () => {
         var inputs = [10,20,30,40];
-        // TODO : assign first value to x, skip the second item and the others parameters to an array called 'remainging' with a single ligne of code
+        // TODO : assign first value to x, skip the second item and the others parameters to an array called 'remaining' with a single ligne of code
         /* ...FILL_ME_IN... */
         chai.expect(x).to.be.equal(10)
         chai.expect(remaining).to.be.deep.equal([30,40]);
