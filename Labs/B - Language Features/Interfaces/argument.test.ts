@@ -6,7 +6,7 @@ describe('interface#arguments', () => {
             return control.label;
         };
         // TODO : call this method
-        var actual = fn(/*FILL_ME_IN */);
+        var actual = fn({label:'myuicontrol'});
 
         chai.expect(fn).to.be.an('function');
         chai.expect(actual).to.be.an('string');
@@ -22,7 +22,7 @@ describe('interface#arguments', () => {
         };
 
          // TODO : call this method
-        var actual = fn(/*FILL_ME_IN */);
+        var actual = fn({label:'myuicontrol'});
 
         chai.expect(fn).to.be.an('function');
         chai.expect(actual).to.be.an('string');

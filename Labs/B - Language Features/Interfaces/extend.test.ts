@@ -7,8 +7,11 @@ describe('interface#extend', () => {
         }
 
         // TODO : extend Shape to a new interface Square with a new property sideLength
+        interface Square extends Shape {
+            sideLength:number;
+        }
 
-        let square:Square = { color:'n/a', sideLength:0};
+        let square:Square = { color:'blue', sideLength:10};
 
         chai.expect(square).to.be.an('object');
         chai.expect(square.color).to.be.equal('blue');
@@ -24,6 +27,14 @@ describe('interface#extend', () => {
         }
 
         // TODO : implement SelectableControl in a new class Label
+        class Label implements SelectableControl {
+            constructor(public name:string) {
+
+            }
+            select() {
+                return true;
+            }
+        }
 
         let lbl:SelectableControl=new Label('mylabel');
 

@@ -8,7 +8,12 @@ describe('interface#implement', () => {
         }
 
         // TODO : implement this interface in a class name Label and fix the test
-
+        class Label implements UIControl {
+            name:string;
+            select() {
+                return true;
+            }
+        }
         
         var lbl=new Label();
         lbl.name='mylabel';
@@ -21,7 +26,7 @@ describe('interface#implement', () => {
             (source: string): string;
         }
         // TODO : create an uppercase selector called fn (ie JUST a function) from this interface
-
+        var fn : Select = s=> s.toUpperCase();
         var actual = fn("foobar");
         chai.expect(fn).to.be.an('function');
         chai.expect(actual).to.be.equal('FOOBAR');
@@ -38,6 +43,7 @@ describe('interface#implement', () => {
         var collection: IDictionary = {};
 
         // TODO : add new items to collection to fix this test 
+        collection['item1']=new MyType('foobar');
 
         var actual = collection['item1'];
         chai.expect(actual).to.be.an('object');
