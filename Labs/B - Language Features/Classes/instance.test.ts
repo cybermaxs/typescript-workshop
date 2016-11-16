@@ -13,7 +13,7 @@ describe('class#instance', () => {
         }
 
         // TODO : create an instance of Program named 'myprogram' to fix these tests
-
+        var myprogram = new Program('carliot');
         chai.expect(myprogram).to.be.an('object');
         chai.expect(myprogram.HasName()).to.be.true;
     })
