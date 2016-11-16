@@ -16,7 +16,7 @@ describe('interface#arguments', () => {
         interface Control {
             label: string
         }
-        // TODO : call this method
+
         var fn= function(control:Control) { 
             return control.label;
         };

@@ -21,7 +21,7 @@ describe('interface#implement', () => {
             (source: string): string;
         }
         // TODO : create an uppercase selector called fn (ie JUST a function) from this interface
-
+        var fn:Select = null;
         var actual = fn("foobar");
         chai.expect(fn).to.be.an('function');
         chai.expect(actual).to.be.equal('FOOBAR');
