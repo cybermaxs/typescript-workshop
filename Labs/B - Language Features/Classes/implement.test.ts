@@ -5,6 +5,13 @@ describe('class#implement', () => {
         interface Shape {
             size : number;
         }
+
+        class Rectangle implements Shape {
+            size:number;
+            constructor(width:number,length:number) {
+                this.size=width*length;
+            }
+        }
                
         // TODO : implements this interface in a class named 'Rectangle'
         
@@ -19,6 +26,11 @@ describe('class#implement', () => {
             }
         }
         // TODO : extend the class Vector2D with a third property z in a new class Vector3D
+        class Vector3D extends Vector2D {
+            constructor(public x:number, public y:number, public z:number) {
+                super(x,y);
+            }
+        }
         
         var v = new Vector3D(100,200, 300);
         
@@ -36,7 +48,7 @@ describe('class#implement', () => {
 
         class Program extends WelcomeBase {
             run(){
-                return 'foobar';
+                return super.GetWelcomeMessage();
                 // TODO : call the base class here to return the welcome message
             }
         }
@@ -49,6 +61,12 @@ describe('class#implement', () => {
 
         abstract class Generator {      
             abstract IsTrue() : boolean; 
+        }
+
+        class TrueGenerator implements Generator {
+            IsTrue() {
+                return true;
+            }
         }
 
 

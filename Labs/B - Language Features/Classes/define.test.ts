@@ -3,6 +3,11 @@ import * as chai from 'chai'
 describe('class#define', () => {
     it('defineClass', () => {
         // TODO : define class Point with two properties x/y and a constructor
+        class Point {
+            constructor(public x:number, public y:number) {
+
+            }
+        }
         var p = new Point(100,200);
         
         chai.expect(p).to.be.an('object');
@@ -11,6 +16,11 @@ describe('class#define', () => {
     })
     it('defineClassUsingConstructor', () => {
         // TODO : define a class Point having two properties x/y by just using a constructor (Help : use access modifiers in ctor) 
+        class Point {
+            constructor(public x:number, public y:number) {
+                
+            }
+        }
         var p = new Point(100,200);
         
         chai.expect(p).to.be.an('object');
@@ -21,6 +31,10 @@ describe('class#define', () => {
         class Location {
             readonly x:number;
             readonly y:number;
+            constructor() {
+                this.x=10;
+                this.y=10;
+            }
         }
 
         // TODO : add a constructor to Location to fill readonly proerties
