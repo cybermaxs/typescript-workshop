@@ -8,7 +8,9 @@ describe('import', () => {
         // TODO : import the interface defined in calculator and implements your own calculator
         // Tip : import should be at he beginning of the file
         class UniverseCalculator implements Calculator {
-          
+            Calculate(a:number, b:number) {
+              return FILL_ME_IN;
+          }
         }
         var mycalculator = new UniverseCalculator();
         var answer = mycalculator.Calculate(4564,645464);
