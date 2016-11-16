@@ -1,4 +1,4 @@
-// TODO : import the chai module
+import * as chai from 'chai'
 
 // tests : do not change anything
 describe('moule#external', () => {
@@ -8,6 +8,6 @@ describe('moule#external', () => {
 
         // TODO : use the should property of chai to validate that 1+1=2
         // Note : yes, you're writing a test :) and you may don't know chai, but embrace TypeScript type system
-        chai.assert.equal(actual, expected+1);
+        chai.should().equal(actual, expected);
     })
 })

@@ -1,5 +1,6 @@
 import * as chai from 'chai'
-
+import {Calculator} from './Calculators/Calculator'
+import DefaultCalculator from './Calculators/AddCalculator'
 // IMPORTANT NOTE : tests should NOT be changed 
 // we're working with import directives ONLY, so nothing should be changed below this comment
 
@@ -8,7 +9,9 @@ describe('import', () => {
         // TODO : import the interface defined in calculator and implements your own calculator
         // Tip : import should be at he beginning of the file
         class UniverseCalculator implements Calculator {
-          
+          Calculate(a:number, b:number) {
+              return 42;
+          }
         }
         var mycalculator = new UniverseCalculator();
         var answer = mycalculator.Calculate(4564,645464);
