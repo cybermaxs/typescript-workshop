@@ -54,7 +54,7 @@ describe('class#implement', () => {
 
         // TODO : implements the abstract class in a class named 'TrueGenerator'
         var generator = new TrueGenerator();
-        var actual = generator.isTrue();
+        var actual = generator.IsTrue();
         chai.expect(actual).to.be.true;
     })
 })

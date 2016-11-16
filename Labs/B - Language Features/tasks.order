@@ -18,9 +18,9 @@
 **/Interfaces/argument.test.js
 **/Interfaces/implement.test.js
 **/Interfaces/extend.test.js
+**/Classes/instance.test.js
 **/Classes/define.test.js
 **/Classes/implement.test.js
-**/Classes/instance.test.js
 **/Classes/static.test.js
 **/AdvancedTypes/generic.test.js
 **/AdvancedTypes/tuples.test.js
