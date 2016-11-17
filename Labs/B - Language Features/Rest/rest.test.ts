@@ -15,7 +15,10 @@ describe('rest', () => {
 
         // TODO : update this method to fix this test (Note : do not use array methods)
         function iTakeItAll(first, second, ...all) {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1d4c19808b4a957e333aa3099939cd17269026e9
                 return all; 
         }
 
