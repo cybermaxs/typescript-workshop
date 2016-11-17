@@ -19,11 +19,8 @@ describe('Object destructuring', () => {
             c: 'Smith',
         } 
 
-<<<<<<< 0d607390be670129a6b46ef27e02579ce90d000a
-        /* ...FILL_ME_IN... */
-=======
          var {b:firstname,c:lastname}=o;
->>>>>>> more answers
+
         chai.expect(firstname).to.be.an('string');
         chai.expect(firstname).to.be.equal('John');
 

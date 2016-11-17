@@ -16,13 +16,9 @@ describe('function#call', () => {
         var log = function (log: { ts: number, msg: string }) {
             return log.ts.toString() + '=>' + log.msg;
         };
-<<<<<<< 7d2376e4c6a722a9ae6cac4c951ab830967a21a4
-        var actual = 'CALL_ME_IN';
-=======
 
         var actual = log({ts:123, msg:'hello'})
 
->>>>>>> call answers
         chai.expect(actual).to.be.an('string');
         chai.expect(actual).to.be.equal('123=>hello');
     })

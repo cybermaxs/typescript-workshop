@@ -9,13 +9,8 @@ describe('import', () => {
         // TODO : import the interface defined in calculator and implements your own calculator
         // Tip : import should be at he beginning of the file
         class UniverseCalculator implements Calculator {
-<<<<<<< 26f965dfde44432461eec8c5b773c651abdb4e87
-            Calculate(a:number, b:number) {
-              return FILL_ME_IN;
-=======
           Calculate(a:number, b:number) {
               return 42;
->>>>>>> modules answers
           }
         }
         var mycalculator = new UniverseCalculator();
